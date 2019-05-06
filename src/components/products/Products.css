@@ -1,0 +1,100 @@
+.products-container h1{
+	margin-top: 0;
+    color: blue;
+}
+.products-container{
+	width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: cornsilk;
+}
+.products-container .product-details{
+	margin: 0 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted;
+    margin-bottom: 15px;
+}
+.products-container .product-details p.product-item{
+	font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.products-container .product-details p{
+	font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.products-container .product-details img{
+	width: 100%;
+    border: 2px solid darkgrey;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 7px 0px grey;
+    max-height: 400px;
+}
+.products-container .product-details .product-overlay .overlay-content{
+	text-align: initial;
+}
+.products-container .product-details .product-overlay .overlay-content .close-button{
+	display: inline-block;
+    float: right;
+    margin-right: 8px;
+    margin-top: 2px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+.products-container .product-details .product-overlay .overlay-content{
+	height: fit-content;
+}
+.products-container .product-details .product-overlay .overlay-content h1{
+	text-align: center;
+    margin-bottom: 0;
+}
+.products-container .product-details .product-overlay .overlay-content .carousal-container{
+	position: relative;
+}
+.products-container .product-details .product-overlay .overlay-content .carousal-container .arrow-icons-left img{
+	width: 18px;
+    position: absolute;
+    top: 46%;
+    left: 10px;
+}
+.products-container .product-details .product-overlay .overlay-content .carousal-container .item-container{
+	width: 100%;
+}
+.products-container .product-details .product-overlay .overlay-content .carousal-container .item-container img{
+	height: 250px;
+	border: 0px;
+	box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px; 		
+}
+.products-container .product-details .product-overlay .overlay-content .carousal-container .arrow-icons-right img{
+	width: 18px;
+    position: absolute;
+    top: 46%;
+    right: 10px;
+}
+
+@media only screen and (max-width: 992px){
+	.products-container .product-details p.product-item{
+		font-size: 14px;
+	}
+	.products-container .product-details p{
+		font-size: 12px;
+	}
+	.products-container h1{
+		font-size: 24px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.products-container .product-details p.product-item{
+		font-size: 10px;
+	}
+	.products-container .product-details p{
+		font-size: 8px;
+	}
+	.products-container h1{
+	    font-size: 20px;
+	}
+}
